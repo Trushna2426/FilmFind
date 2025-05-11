@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recommendations</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>🎥 Recommended Movies</h1>
+        
+        {% if error %}
+            <p class="error">{{ error }}</p>
+        {% endif %}
+        
+        <div class="card-container">
+            {% for movie in recommendations %}
+                <div class="card">
+                    <h3>{{ movie.title }}</h3>
+                    <p>{{ movie.overview }}</p>
+                </div>
+            {% endfor %}
+        </div>
+
+        <a href="/" class="back-button">🔙 Back to Home</a>
+    </div>
+</body>
+</html>
