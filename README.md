@@ -39,32 +39,23 @@ FilmFind/
 ├── requirements.txt      : Python dependencies
 └── README.md    
 ---
-## 🔧 Requirements
+## ⚙️ Installation
+1. 🔧 Requirements
 Install the required packages using:  pip install -r requirements.txt
+
+2. ▶️ Run the app
+python app.py
+
+3. 🛜 Access in Browser
+http://127.0.0.1:5000
 ---
-## ▶️ How to Run
-python movie_recommender.py 
----
+
 ## 📌 Example Output
-=== Movie Recommendation System ===
-Enter a movie title: Avatar        
+1. Homepage : This is the homepage where users can enter the name of a movie to get recommendations.
+![Input Page](input_form.png.png)
 
-Top recommendations for 'Avatar':
-
-🎬 Alien: Resurrection
-   Two hundred years after Lt. Ripley died, a group of scientists clone her, hoping to breed the ultimate weapon. But the new Ripley is full of surprises … as are the new aliens. Ripley must team with a band of smugglers to keep the creatures from reaching Earth.
-
-🎬 The Black Hole
-   The explorer craft U.S.S. Palomino is returning to Earth after a fruitless 18-month search for extra-terrestrial life when the crew comes upon a supposedly lost ship, the magnificent U.S.S. Cygnus, hovering near a black hole. The ship is controlled by Dr. Hans Reinhardt and his monstrous robot companion, Maximillian. But the initial wonderment and awe the Palomino crew feel for the ship and its resistance to the power of the black hole turn to horror as they uncover Reinhardt's plans.
-
-🎬 Serenity
-   When the renegade crew of Serenity agrees to hide a fugitive on their ship, they find themselves in an action-packed battle between the relentless military might of a totalitarian regime who will destroy anything – or anyone – to get the girl back and the bloodthirsty creatures who roam the uncharted areas of space. But... the greatest danger of all may be on their ship.
-
-🎬 Aliens
-   When Ripley's lifepod is found by a salvage crew over 50 years later, she finds that terra-formers are on the very planet they found the alien species. When the company sends a family of colonists out to investigate her story, all contact is lost with the planet and colonists. They enlist Ripley and the colonial marines to return and search for answers.
-
-🎬 Supernova
-   Set in the 22nd century, when a battered salvage ship sends out a distress signal, the seasoned crew of the rescue hospital ship Nova-17 responds. What they find is a black hole--that threatens to destroy both ships--and a mysterious survivor whose body quickly mutates into a monstrous and deadly form.
+2.Recommendations : This screen displays recommended movies as flash-style cards once a user submits their input.
+![Recommendations Page](recommendations.png.png)
 ---
 
 ## 🧠 How It Works
@@ -72,6 +63,16 @@ Top recommendations for 'Avatar':
 2. Embeddings: Uses a pre-trained transformer model to convert overviews into vectors.
 3. Similarity Score: Calculates cosine similarity between embeddings to find the most similar movies.
 4. Top Matches: Ranks and displays the top 5 recommendations (excluding the input movie itself).
+
+---
+## 🚀 What’s Coming Next
+- 🎯 Add fuzzy search or autocomplete.
+- 📊 Improve recommendation accuracy with more features (genre, cast).
+- 🌐 Deploy the system to Render or Hugging Face Spaces.
+- 📱 Make the layout fully responsive for mobile.
+- 🧠 Replace static CSV with a real-time API like TMDB.
+
+---
 
 # 📦 Dataset
 We use the TMDB 5000 Movie Dataset:
