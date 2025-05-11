@@ -75,7 +75,9 @@ http://127.0.0.1:5000
 ---
 
 # 📦 Dataset
-We use the TMDB 5000 Movie Dataset:
+We use the TMDB 5000 Movie Dataset:  
+You can download it directly from [Kaggle](https://www.kaggle.com/datasets/shruti79/tmdb-5000-movie-dataset).
+
 Available at Kaggle
 
 # 📚 Libraries Used
