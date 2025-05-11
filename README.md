@@ -5,7 +5,7 @@ FilmFind is a **content-based movie recommendation system** built using NLP tech
 
 ## 📚 Project Overview
 
-This project uses the **TMDB 5000 Movie Dataset** to recommend movies based on semantic similarity between movie overviews. By using **Sentence Transformers**, it understands the meaning behind the descriptions and finds the most relevant matches — even if the keywords don’t exactly match.
+This project uses the TMDB 5000 Movie Dataset to recommend movies based on semantic similarity between movie overviews. By using Sentence Transformers, it understands the meaning behind the descriptions and finds the most relevant matches — even if the keywords don’t exactly match.
 ---
 
 ## 🚀 Key Features
@@ -54,7 +54,7 @@ http://127.0.0.1:5000
 1. Homepage : This is the homepage where users can enter the name of a movie to get recommendations.
 ![Input Page](input_form.png.png)
 
-2.Recommendations : This screen displays recommended movies as flash-style cards once a user submits their input.
+2. Recommendations : This screen displays recommended movies as flash-style cards once a user submits their input.
 ![Recommendations Page](recommendations.png.png)
 ---
 
