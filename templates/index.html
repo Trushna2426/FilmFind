@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FilmFind - Movie Recommender</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>🎬 FilmFind</h1>
+        <form action="/recommend" method="post">
+            <input type="text" name="movie_title" placeholder="Enter a movie you like..." required>
+            <button type="submit">Get Recommendations</button>
+        </form>
+    </div>
+</body>
+</html>
